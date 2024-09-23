@@ -12,9 +12,17 @@ const App = () => {
 			</section>
 			<section className='main'>
 				<h1>AnaGPT</h1>
-				<ul className="feed">
-					
-				</ul>
+				<ul className='feed'></ul>
+				<div className='bottom-section'>
+					<div className='input-container'>
+						<input />
+						<div id='submit'>➤</div>
+					</div>
+					<p className='info'>
+						ChatGPT can make mistakes. Check important
+						info.
+					</p>
+				</div>
 			</section>
 		</div>
 	);
