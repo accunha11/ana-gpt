@@ -1,6 +1,6 @@
 # AnaGPT
 
-This is a chat gpt clone using React, Node.js and the OpenAI API.
+This is a chat gpt clone using React, Node.js and the OpenAI API. Built quickly just for fun ;)
 
 Here's a screenshot of what the final product looks like:
 
