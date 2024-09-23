@@ -6,9 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// temporary key for set up, will have a new key later that is safely stored
-const API_KEY =
-	'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';
+const API_KEY = 'YOUR_API_KEY';
 
 app.post('/completions', async (req, res) => {
 	const options = {
